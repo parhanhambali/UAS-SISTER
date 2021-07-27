@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Passing</title>
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+</head>
+<script type="text/javascript"></script>
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #4372c8;
+        color: #fff
+      }
+	  a{
+		  color: #fff;		  
+	  }
+    </style>
+<body>
+<center>
+<p><h3>Manajemen Rumah Sakit</h3></center>
+	<div class="ui three column grid">
+		<div class="five wide column"></div>
+		<div class="six wide column">
+				<a href="{{ url_for('register') }}"><div style="margin-top:20px" class="ui container"><button class="fluid ui primary button" onclick="{{ url_for('register') }}">Register</button></div></a>
+				<a href="{{ url_for('login') }}"><div style="margin-top:20px" class="ui container"><button class="fluid ui green button">Log In</button></div></a>
+
+				</div>
+			<div class="five wide column"></div>
+	</div>
+<br>
+	<center>
+		<a href="http://localhost/proyek3/"> Go To Website >></a>
+	</center>
+
+</body>
+</html>
