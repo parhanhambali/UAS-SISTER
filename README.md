@@ -1,2 +1,2 @@
-# uas-sisbar-message-passing
-uas sisbar message passing internal inventory
+# UAS-SISTER
+UAS-SISTER
